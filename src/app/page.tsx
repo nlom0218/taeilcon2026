@@ -80,9 +80,6 @@ export default function Home() {
 
           <div className="relative mx-auto flex min-h-screen w-full max-w-[1240px] items-end px-5 pb-16 pt-32 md:px-8 md:pb-24">
             <div className="max-w-[720px]">
-              <p className="mb-3 text-sm font-medium text-[#BFDBFE] md:mb-5">
-                HOME · 태일건설
-              </p>
               <h1 className="text-4xl font-bold leading-tight text-white md:text-6xl">
                 내가 그리는대로!
                 <br />
@@ -90,6 +87,7 @@ export default function Home() {
               </h1>
               <p className="mt-5 max-w-[560px] text-base text-[#E2E8F0] md:text-lg">
                 당신이 꿈꾸는 공간을 태일건설의 전문 시공으로 완성합니다.
+                <br className="hidden md:block" />
                 도장공사, 방수공사, 습식공사를 정확하고 꼼꼼하게 제공합니다.
               </p>
             </div>
@@ -152,7 +150,9 @@ export default function Home() {
               </p>
               <p className="self-end text-base leading-7 text-[#334155] md:text-lg">
                 태일건설은 도장공사, 방수공사, 습식공사를 중심으로 현장별 맞춤
-                솔루션을 제공합니다. 공정마다 기본을 지키고, 결과로 신뢰를
+                솔루션을 제공합니다.
+                <br className="hidden md:block" />
+                공정마다 기본을 지키고, 결과로 신뢰를
                 만들겠습니다.
               </p>
             </div>
